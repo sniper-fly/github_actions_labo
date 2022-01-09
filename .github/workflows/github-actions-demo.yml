@@ -33,7 +33,7 @@ jobs:
         run: |
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
-      - run: echo ${{ secrets.TEST_ENV }}
+      - run: echo env ${{ secrets.TEST_ENV }}
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
 #       - uses: actions/checkout@v2
 
