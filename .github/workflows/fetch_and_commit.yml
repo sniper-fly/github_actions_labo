@@ -1,8 +1,8 @@
-name: Fetch and Commit S3 Data
+name: Sync and Commit S3 Data
 
 on:
-  schedule:
-    - cron: '0 0 * * *' # 毎日0時に実行
+  # schedule:
+  #   - cron: '0 0 * * *' # 毎日0時に実行
   workflow_dispatch: # 手動トリガー
 
 jobs:
